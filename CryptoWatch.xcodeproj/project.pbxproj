@@ -13,6 +13,9 @@
 		DBDA5916295AB894006B76F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDA5914295AB894006B76F9 /* Main.storyboard */; };
 		DBDA5918295AB895006B76F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBDA5917295AB895006B76F9 /* Assets.xcassets */; };
 		DBDA591B295AB895006B76F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBDA5919295AB895006B76F9 /* LaunchScreen.storyboard */; };
+		DBDA5923295ABA73006B76F9 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA5922295ABA73006B76F9 /* CryptoTableViewCell.swift */; };
+		DBDA5927295ABE67006B76F9 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA5926295ABE67006B76F9 /* CryptoCurrency.swift */; };
+		DBDA592B295AD5CB006B76F9 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA592A295AD5CB006B76F9 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		DBDA5917295AB895006B76F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBDA591A295AB895006B76F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBDA591C295AB895006B76F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBDA5922295ABA73006B76F9 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		DBDA5926295ABE67006B76F9 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		DBDA592A295AD5CB006B76F9 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,50 @@
 		DBDA590D295AB894006B76F9 /* CryptoWatch */ = {
 			isa = PBXGroup;
 			children = (
+				DBDA5928295ABE71006B76F9 /* Model */,
+				DBDA5924295ABE0A006B76F9 /* View */,
+				DBDA5925295ABE1A006B76F9 /* ViewModel */,
+				DBDA5929295AD5A5006B76F9 /* Service */,
 				DBDA590E295AB894006B76F9 /* AppDelegate.swift */,
 				DBDA5910295AB894006B76F9 /* SceneDelegate.swift */,
-				DBDA5912295AB894006B76F9 /* ViewController.swift */,
 				DBDA5914295AB894006B76F9 /* Main.storyboard */,
 				DBDA5917295AB895006B76F9 /* Assets.xcassets */,
 				DBDA5919295AB895006B76F9 /* LaunchScreen.storyboard */,
 				DBDA591C295AB895006B76F9 /* Info.plist */,
 			);
 			path = CryptoWatch;
+			sourceTree = "<group>";
+		};
+		DBDA5924295ABE0A006B76F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBDA5912295AB894006B76F9 /* ViewController.swift */,
+				DBDA5922295ABA73006B76F9 /* CryptoTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBDA5925295ABE1A006B76F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DBDA5928295ABE71006B76F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBDA5926295ABE67006B76F9 /* CryptoCurrency.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DBDA5929295AD5A5006B76F9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DBDA592A295AD5CB006B76F9 /* WebService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDA592B295AD5CB006B76F9 /* WebService.swift in Sources */,
+				DBDA5923295ABA73006B76F9 /* CryptoTableViewCell.swift in Sources */,
 				DBDA5913295AB894006B76F9 /* ViewController.swift in Sources */,
 				DBDA590F295AB894006B76F9 /* AppDelegate.swift in Sources */,
+				DBDA5927295ABE67006B76F9 /* CryptoCurrency.swift in Sources */,
 				DBDA5911295AB894006B76F9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
