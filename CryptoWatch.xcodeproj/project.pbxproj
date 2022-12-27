@@ -16,6 +16,7 @@
 		DBDA5923295ABA73006B76F9 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA5922295ABA73006B76F9 /* CryptoTableViewCell.swift */; };
 		DBDA5927295ABE67006B76F9 /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA5926295ABE67006B76F9 /* CryptoCurrency.swift */; };
 		DBDA592B295AD5CB006B76F9 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA592A295AD5CB006B76F9 /* WebService.swift */; };
+		DBDA592D295ADE80006B76F9 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBDA592C295ADE80006B76F9 /* CryptoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		DBDA5922295ABA73006B76F9 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
 		DBDA5926295ABE67006B76F9 /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
 		DBDA592A295AD5CB006B76F9 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		DBDA592C295ADE80006B76F9 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		DBDA5925295ABE1A006B76F9 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DBDA592C295ADE80006B76F9 /* CryptoViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				DBDA592B295AD5CB006B76F9 /* WebService.swift in Sources */,
 				DBDA5923295ABA73006B76F9 /* CryptoTableViewCell.swift in Sources */,
 				DBDA5913295AB894006B76F9 /* ViewController.swift in Sources */,
+				DBDA592D295ADE80006B76F9 /* CryptoViewModel.swift in Sources */,
 				DBDA590F295AB894006B76F9 /* AppDelegate.swift in Sources */,
 				DBDA5927295ABE67006B76F9 /* CryptoCurrency.swift in Sources */,
 				DBDA5911295AB894006B76F9 /* SceneDelegate.swift in Sources */,
